@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "db:migrate:dev": "dotenv -e .env -e .env.development -- npx prisma push"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.0.0",
+    "husky": "^8.0.1"
+  }
+}
